@@ -17,8 +17,10 @@ I have a few hundred sketchbooks (so far). In each sketchbook, I
 typically jot down the time and place where the sketchbook was started
 and finished.  Sometimes I forget and I have to fill in =?='s in the
 spreadsheet for the year, month or day portion (based on other
-available clues).  Since I know how many pages are in each sketchbook,
-I can determine roughly what my monthly output has been.
+available clues).  Given these dates, if I assume uniform rate of
+drawing in any given sketchbook, since I know how many pages are in
+each sketchbook, I can determine roughly what my monthly output has
+been.
 
 I haven't entered all the sketchbooks yet, but when I have finished,
 I'll have that graph going from the 1980s up until, say, I die.
@@ -29,3 +31,11 @@ I'll have that graph going from the 1980s up until, say, I die.
 #+ATTR_HTML: :style max-height:600px;max-width:600px
 [[file:./sketchbooks-detail.png][file:./sketchbooks-detail.png]]
 
+The workflow is:
+- Draw draw draw;
+- Enter sketchbooks in Org Mode spreadsheet (not included here);
+- Export to CSV;
+- Use the Clojure code (=boot= task) in this repo to generate the graph;
+- Contemplate on one's productivity, or lack thereof.
+
+Yes, this is a bit over the top.
