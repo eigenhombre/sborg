@@ -38,4 +38,6 @@ The workflow is:
 - Use the Clojure code (=boot= task) in this repo to generate the graph;
 - Contemplate on one's productivity, or lack thereof.
 
-Yes, this is a bit over the top.
+In case you were wondering: yes, this is all a bit over the top. There
+are probably several things goofy about it from a technical, artistic
+and karmic perspective.
