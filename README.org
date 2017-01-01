@@ -10,8 +10,8 @@ Sketchbook analytics... graphing pages per month of output.
 [[file:./example.png][file:./example.png]]
 
 Of use to nobody but me, this repo is an analysis of my sketchbook
-"spreadsheet" (Org Mode file) which shows number of "sheets" completed
-per month (example output above).
+"spreadsheet" (Org Mode file) which shows number of pages[fn::Or sheets of paper... typically I only use one side] completed
+per month. Example output is shown above.
 
 I have a few hundred sketchbooks (so far). In each sketchbook, I
 typically jot down the time and place where the sketchbook was started
