@@ -104,9 +104,13 @@
         times-ms (map (comp c/to-long (fn [[y m]] (t/date-time y m 1)) first)
                       page-counts-by-month)
         ;; Y-axis: page-counts:
-        page-counts (map second page-counts-by-month)]
+        page-counts (map second page-counts-by-month)
+        average-page-count (/ (apply + page-counts) (count page-counts))]
+    (println (format "Avg. sheets per month: %2.1f" average-page-count))
     (view (time-series-plot times-ms page-counts
                             :x-label "Year"
                             :y-label "Sheets drawn per month"
                             :size [1200 1200]))
+    (print "Control-C to terminate....")
+    (flush)
     (.join (Thread/currentThread))))
